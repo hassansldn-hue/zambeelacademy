@@ -1,0 +1,21 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0C1A3C"></stop><stop offset="100%" stop-color="#20408C"></stop></linearGradient>
+    <filter id="glow5" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="90" result="b"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.35"></feFuncA></feComponentTransfer><feMerge><feMergeNode in="b"></feMergeNode></feMerge></filter>
+    <style>.s{stroke:#fff;stroke-width:6;fill:none;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g5)"></rect>
+  <ellipse cx="1000" cy="150" rx="520" ry="300" fill="#FFFFFF" opacity=".25" filter="url(#glow5)"></ellipse>
+  <rect x="1090" y="560" width="120" height="10" rx="5" fill="#F5C54B" opacity=".9"></rect>
+  <!-- megaphone -->
+  <polygon points="420,340 600,300 620,380 440,420" fill="#fff"></polygon>
+  <rect x="595" y="310" width="80" height="60" class="s"></rect>
+  <ellipse cx="620" cy="405" rx="20" ry="20" fill="#fff"></ellipse>
+  <!-- waves -->
+  <path d="M680,260 A140,140 0 0 1 680,460" class="s"></path>
+  <path d="M720,230 A190,190 0 0 1 720,490" class="s"></path>
+  <!-- social bubbles -->
+  <circle cx="910" cy="280" r="28" class="s"></circle><circle cx="910" cy="280" r="10" fill="#fff"></circle>
+  <circle cx="980" cy="360" r="28" class="s"></circle><circle cx="980" cy="360" r="10" fill="#fff"></circle>
+  <circle cx="910" cy="440" r="28" class="s"></circle><circle cx="910" cy="440" r="10" fill="#fff"></circle>
+</svg>

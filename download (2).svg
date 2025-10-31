@@ -1,0 +1,24 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0C1A3C"></stop><stop offset="100%" stop-color="#20408C"></stop></linearGradient>
+    <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="90" result="b"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.35"></feFuncA></feComponentTransfer><feMerge><feMergeNode in="b"></feMergeNode></feMerge></filter>
+    <style>.s{stroke:#fff;stroke-width:6;fill:none;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g3)"></rect>
+  <ellipse cx="1000" cy="150" rx="520" ry="300" fill="#FFFFFF" opacity=".25" filter="url(#glow3)"></ellipse>
+  <rect x="1090" y="560" width="120" height="10" rx="5" fill="#F5C54B" opacity=".9"></rect>
+  <!-- grid panel -->
+  <rect x="380" y="220" width="520" height="320" rx="18" class="s"></rect>
+  <g stroke="#fff" stroke-width="3">
+    <line x1="510" y1="220" x2="510" y2="540"></line>
+    <line x1="640" y1="220" x2="640" y2="540"></line>
+    <line x1="770" y1="220" x2="770" y2="540"></line>
+    <line x1="380" y1="326" x2="900" y2="326"></line>
+    <line x1="380" y1="433" x2="900" y2="433"></line>
+  </g>
+  <!-- magnifier -->
+  <circle cx="840" cy="460" r="90" class="s"></circle>
+  <line x1="900" y1="520" x2="980" y2="600" class="s" stroke-width="12"></line>
+  <!-- cursor -->
+  <polygon points="440,300 440,480 560,420" fill="#fff"></polygon>
+</svg>

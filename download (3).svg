@@ -1,0 +1,29 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0C1A3C"></stop><stop offset="100%" stop-color="#20408C"></stop></linearGradient>
+    <filter id="glow4" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="90" result="b"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.35"></feFuncA></feComponentTransfer><feMerge><feMergeNode in="b"></feMergeNode></feMerge></filter>
+    <style>.s{stroke:#fff;stroke-width:6;fill:none;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g4)"></rect>
+  <ellipse cx="980" cy="150" rx="500" ry="300" fill="#FFFFFF" opacity=".25" filter="url(#glow4)"></ellipse>
+  <rect x="1090" y="560" width="120" height="10" rx="5" fill="#F5C54B" opacity=".9"></rect>
+  <!-- storefront -->
+  <rect x="370" y="260" width="540" height="240" rx="16" class="s"></rect>
+  <rect x="410" y="340" width="110" height="150" rx="10" class="s"></rect>
+  <rect x="540" y="340" width="350" height="150" rx="10" class="s"></rect>
+  <!-- awning -->
+  <rect x="380" y="200" width="520" height="60" rx="12" class="s"></rect>
+  <path d="M380,200 q43,60 86,0 q43,60 86,0 q43,60 86,0 q43,60 86,0 q43,60 86,0 q43,60 86,0" class="s"></path>
+  <!-- gear -->
+  <circle cx="910" cy="220" r="60" class="s"></circle>
+  <g fill="#fff">
+    <rect x="908" y="146" width="4" height="24"></rect>
+    <rect x="908" y="270" width="4" height="24"></rect>
+    <rect x="952" y="218" width="24" height="4"></rect>
+    <rect x="864" y="218" width="24" height="4"></rect>
+    <rect x="934" y="164" width="18" height="4" transform="rotate(45 943 166)"></rect>
+    <rect x="934" y="272" width="18" height="4" transform="rotate(-45 943 274)"></rect>
+    <rect x="874" y="164" width="18" height="4" transform="rotate(-45 883 166)"></rect>
+    <rect x="874" y="272" width="18" height="4" transform="rotate(45 883 274)"></rect>
+  </g>
+</svg>
